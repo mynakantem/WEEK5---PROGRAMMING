@@ -1,0 +1,13 @@
+CREATE DATABASE company;
+USE comapny;
+CREATE TABLE employees (
+id INT PRIMARY KEY,
+name VARCHAR(100),
+department VARCHAR(100),
+salary DOUBLE
+);
+
+INSERT INTO employees VALUES
+(101, 'Ananya Sharma', 'HR', 60000),
+(102, 'Ravi Kumar', 'IT', 75000),
+(103, 'Neha Patel', 'Finance', 68000);
